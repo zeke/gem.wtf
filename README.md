@@ -1,3 +1,5 @@
+![logo](https://user-images.githubusercontent.com/2289/105571749-670d2100-5d07-11eb-8ca2-b9dd81a849ba.png)
+
 # gem.wtf
 
 Type a short URL to jump straight to a Ruby gem's repository page.
