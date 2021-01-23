@@ -11,9 +11,9 @@ app.use((req, res, next) => {
   }
 })
 
-app.get('/', (req, res) => {
-  res.redirect('https://github.com/zeke/gem.wtf')
-})
+app.use(express.static(__dirname))
+
+app.get('/', require('./home'))
 
 app.get('/:gemname', async (req, res) => {
   const destinationUrl = await wtf(req.params.gemname)
