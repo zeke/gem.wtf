@@ -2,7 +2,7 @@
 
 # gem.wtf
 
-Type a short URL to jump straight to a Ruby gem's repository page.
+Type a short URL to jump straight to any Ruby gem's repository page.
 
 ## Examples
 
