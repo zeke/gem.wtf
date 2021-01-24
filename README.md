@@ -26,3 +26,7 @@ Type a short URL to jump straight to any Ruby gem's repository page.
 ## License
 
 MIT
+
+## See Also
+
+[ghub.io](https://ghub.io) - a similar service, but for npm packages
