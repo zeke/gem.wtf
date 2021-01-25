@@ -29,4 +29,5 @@ MIT
 
 ## See Also
 
-[ghub.io](https://ghub.io) - a similar service, but for npm packages
+- [ghub.io](https://ghub.io) - a similar service, but for npm packages
+- [rubydoc.info/gems](https://rubydoc.info/gems) - "your source for open source Ruby library documentation, generating fresh docs for Gems and popular Git repositories."
