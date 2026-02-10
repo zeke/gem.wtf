@@ -3,19 +3,12 @@
   "description": "Type a short URL to jump straight to any Ruby gem's repository page",
   "private": true,
   "scripts": {
-    "start": "NODE_ENV=production node server.js",
-    "dev": "nodemon -e js,md,json",
-    "test": "standard",
-    "lint": "standard --fix"
-  },
-  "dependencies": {
-    "axios": "^0.21.1",
-    "express": "^4.17.1",
-    "github-markdown-css": "^4.0.0",
-    "hubdown": "^2.6.0"
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7",
-    "standard": "^16.0.3"
+    "@cloudflare/workers-types": "^4.0.0",
+    "typescript": "^5.0.0",
+    "wrangler": "^4.0.0"
   }
 }

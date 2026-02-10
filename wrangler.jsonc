@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gem-wtf",
+  "main": "worker.ts",
+  "compatibility_date": "2025-09-01",
+  "observability": {
+    "enabled": true
+  },
+  "routes": [
+    { "pattern": "gem.wtf", "custom_domain": true },
+    { "pattern": "www.gem.wtf", "custom_domain": true }
+  ]
+}
